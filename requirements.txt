@@ -1,0 +1,31 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.40.0
+datasets>=2.18.0
+huggingface_hub>=0.20.0
+Pillow>=10.0.0
+accelerate>=0.27.0
+peft>=0.10.0
+bitsandbytes>=0.43.0
+
+# For Qwen2-VL
+qwen-vl-utils
+
+# Training utilities
+tqdm>=4.65.0
+wandb>=0.16.0
+tensorboard>=2.15.0
+
+# Evaluation
+scikit-learn>=1.3.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Demo
+gradio>=4.0.0
+
+# Utilities
+python-dotenv>=1.0.0
